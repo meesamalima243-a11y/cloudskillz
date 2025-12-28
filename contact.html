@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us | CloudSkillz Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f4f7fb;color:#333}
+
+/* NAVBAR */
+nav{
+background:#0a192f;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+nav h2{color:#fff}
+nav ul{list-style:none;display:flex;gap:20px}
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-weight:500;
+}
+nav ul li a:hover{color:#0d6efd}
+
+/* HERO */
+.hero{
+background:linear-gradient(rgba(10,25,47,.9),rgba(10,25,47,.9)),
+url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4");
+background-size:cover;
+background-position:center;
+padding:80px 20px;
+color:#fff;
+text-align:center;
+}
+.hero h1{font-size:2.8rem}
+
+/* SECTION */
+section{
+max-width:1000px;
+margin:auto;
+padding:70px 20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+/* INFO */
+.info-box{
+background:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.1)
+}
+.info-box h2{margin-bottom:15px}
+.info-box p{margin-bottom:15px;color:#555}
+
+.info-box a{
+display:block;
+margin-top:10px;
+font-weight:600;
+color:#0d6efd;
+text-decoration:none;
+}
+
+/* FORM */
+.form-box{
+background:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.1)
+}
+.form-box h2{text-align:center;margin-bottom:20px}
+
+form input, form textarea{
+width:100%;
+padding:14px;
+margin-bottom:15px;
+border-radius:10px;
+border:1px solid #ccc;
+font-size:15px;
+}
+
+form textarea{resize:none}
+
+form button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:30px;
+background:linear-gradient(135deg,#0d6efd,#6610f2);
+color:#fff;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+background:#0d0d0d;
+color:#aaa;
+text-align:center;
+padding:25px;
+font-size:14px;
+margin-top:60px
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+section{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>CloudSkillz Academy</h2>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="admissions.html">Admissions</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Contact Us</h1>
+<p>We’re here to help you start your learning journey</p>
+</div>
+
+<!-- CONTENT -->
+<section>
+
+<!-- CONTACT INFO -->
+<div class="info-box">
+<h2>Get in Touch</h2>
+<p>Have questions about courses, admissions, or certification?  
+Reach out to us anytime.</p>
+
+<p><strong>Email:</strong></p>
+<a href="mailto:cloudskillzorg@outlook.com">cloudskillzorg@outlook.com</a>
+
+<p style="margin-top:20px"><strong>WhatsApp:</strong></p>
+<a href="https://wa.me/923194835652" target="_blank">+92 319 4835652</a>
+
+<p style="margin-top:20px">
+Our team usually responds within 24 hours.
+</p>
+</div>
+
+<!-- CONTACT FORM -->
+<div class="form-box">
+<h2>Send a Message</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+© 2025 CloudSkillz Academy | All Rights Reserved
+</footer>
+
+</body>
+</html>

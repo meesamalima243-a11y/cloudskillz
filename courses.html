@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Courses | CloudSkillz Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f4f7fb;color:#333}
+
+.hero{
+background:linear-gradient(rgba(10,25,47,.9),rgba(10,25,47,.9)),
+url("https://images.unsplash.com/photo-1519389950473-47ba0277781c");
+background-size:cover;background-position:center;
+padding:100px 20px;color:#fff;text-align:center}
+
+.hero h1{font-size:3rem}
+.hero p{max-width:800px;margin:auto}
+
+section{max-width:1200px;margin:auto;padding:80px 20px;text-align:center}
+
+.courses{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;margin-top:50px}
+
+.course-link{text-decoration:none;color:inherit}
+
+.card{
+background:#fff;border-radius:18px;padding:30px;
+box-shadow:0 15px 35px rgba(0,0,0,.1);
+transition:.4s;text-align:left}
+
+.card:hover{transform:translateY(-10px)}
+
+.icon{font-size:42px;margin-bottom:12px}
+.card h3{margin-bottom:10px}
+
+.card ul{list-style:none;font-size:.95rem;line-height:1.6}
+
+.course-detail{
+background:#fff;margin:80px auto;padding:50px;
+border-radius:22px;max-width:900px;
+box-shadow:0 20px 40px rgba(0,0,0,.1);
+text-align:left}
+
+.enroll-btn{
+display:inline-block;margin-top:20px;
+padding:14px 32px;border-radius:30px;
+background:linear-gradient(135deg,#0d6efd,#6610f2);
+color:#fff;text-decoration:none;font-weight:600}
+
+.laptop-reward{
+margin-top:100px;
+background:linear-gradient(rgba(10,25,47,.9),rgba(10,25,47,.9)),
+url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8");
+background-size:cover;padding:90px 30px;
+border-radius:28px;color:#fff;text-align:center}
+
+.laptop-reward h1{font-size:3.3rem;margin:20px 0}
+
+footer{background:#0d0d0d;color:#aaa;padding:25px;text-align:center;margin-top:80px}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1 data-aos="zoom-in">Our Courses</h1>
+<p data-aos="fade-up">Professional IT & Computer Skill Programs</p>
+</div>
+
+<section>
+
+<div class="courses">
+
+<a href="#general" class="course-link"><div class="card"><div class="icon">🖥️</div><h3>General Computer</h3><ul><li>⏱ 3 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#english" class="course-link"><div class="card"><div class="icon">🗣️</div><h3>English Speaking</h3><ul><li>⏱ 3 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#graphic" class="course-link"><div class="card"><div class="icon">🎨</div><h3>Graphic Designing</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#web" class="course-link"><div class="card"><div class="icon">🌐</div><h3>Web Development</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#network" class="course-link"><div class="card"><div class="icon">🔌</div><h3>CompTIA Network+</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#server" class="course-link"><div class="card"><div class="icon">🖧</div><h3>CompTIA Server+</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#azure" class="course-link"><div class="card"><div class="icon">☁️</div><h3>Microsoft Azure</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#office" class="course-link"><div class="card"><div class="icon">📊</div><h3>Microsoft Office</h3><ul><li>⏱ 3 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#canva" class="course-link"><div class="card"><div class="icon">🖌️</div><h3>Canva</h3><ul><li>⏱ 3 Months</li><li>📜 Certificate</li></ul></div></a>
+<a href="#ccna" class="course-link"><div class="card"><div class="icon">📡</div><h3>Cisco CCNA</h3><ul><li>⏱ 6 Months</li><li>📜 Certificate</li></ul></div></a>
+
+</div>
+
+<!-- DETAILS -->
+<div id="general" class="course-detail"><h2>General Computer</h2><p>Basic computer, typing, internet, OS, practical skills.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="english" class="course-detail"><h2>English Speaking</h2><p>Fluency, confidence, grammar & interviews.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="graphic" class="course-detail"><h2>Graphic Designing</h2><p>Photoshop, Illustrator, branding & freelancing.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="web" class="course-detail"><h2>Web Development</h2><p>HTML, CSS, JS, live projects.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="network" class="course-detail"><h2>CompTIA Network+</h2><p>Networking, IP, security & labs.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="server" class="course-detail"><h2>CompTIA Server+</h2><p>Servers, virtualization, storage.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="azure" class="course-detail"><h2>Microsoft Azure</h2><p>Cloud computing & administration.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="office" class="course-detail"><h2>Microsoft Office</h2><p>Word, Excel, PowerPoint, Outlook.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="canva" class="course-detail"><h2>Canva</h2><p>Social media & marketing designs.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div id="ccna" class="course-detail"><h2>Cisco CCNA</h2><p>Routing, switching & exam prep.</p><a href="admissions.html" class="enroll-btn">Enroll Now</a></div>
+
+<div class="laptop-reward">
+<h2>🎁 PERFORMANCE REWARD</h2>
+<h1>FREE LAPTOP</h1>
+<p>High-performing students may receive a <strong>Brand New Laptop</strong> after course completion.</p>
+</div>
+
+</section>
+
+<footer>© 2025 CloudSkillz Academy</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:1000,once:true});</script>
+
+</body>
+</html>
